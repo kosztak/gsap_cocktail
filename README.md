@@ -36,6 +36,16 @@ This project served as a hands-on learning experience to understand:
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live version of the landing page here:
+
+👉 **https://kosztak.github.io/gsap_cocktail**
+
+This demo showcases all GSAP animations, scroll interactions, and responsive layout behavior in real time.
+
+---
+
 ## 📦 Installation & Setup
 
 ```bash
