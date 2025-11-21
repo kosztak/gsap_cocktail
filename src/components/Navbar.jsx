@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className="">
       <div>
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Site logo" />
+          <img src="images/logo.png" alt="Site logo" />
           <p>Velvet Pour</p>
         </a>
 

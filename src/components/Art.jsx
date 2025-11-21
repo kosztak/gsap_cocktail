@@ -49,7 +49,7 @@ export default function Art() {
           <ul className="spaye-y-4 will-fade">
             {goodLists.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
-                <img src="/images/check.png" alt="checkmark" />
+                <img src="images/check.png" alt="checkmark" />
                 <p>{feature}</p>
               </li>
             ))}
@@ -57,7 +57,7 @@ export default function Art() {
 
           <div className="cocktail-img">
             <img
-              src="/images/under-img.jpg"
+              src="images/under-img.jpg"
               alt="cocktail"
               className="abs-center masked-img size-full object-contain"
             />
@@ -66,7 +66,7 @@ export default function Art() {
           <ul className="spaye-y-4 will-fade">
             {featureLists.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
-                <img src="/images/check.png" alt="checkmark" />
+                <img src="images/check.png" alt="checkmark" />
                 <p className="md:w-fit w-60">{feature}</p>
               </li>
             ))}

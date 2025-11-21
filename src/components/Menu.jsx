@@ -43,13 +43,9 @@ export default function Menu() {
 
   return (
     <div id="menu" aria-labelledby="manu-heading">
+      <img src="images/slider-left-leaf.png" alt="left leaf" id="m-left-leaf" />
       <img
-        src="/images/slider-left-leaf.png"
-        alt="left leaf"
-        id="m-left-leaf"
-      />
-      <img
-        src="/images/slider-right-leaf.png"
+        src="images/slider-right-leaf.png"
         alt="right leaf"
         id="m-right-leaf"
       />
@@ -86,7 +82,7 @@ export default function Menu() {
           >
             <span>{getCocktailNameByIndex(currentIndex - 1)}</span>
             <img
-              src="/images/right-arrow.png"
+              src="images/right-arrow.png"
               alt="right arrow"
               aria-hidden="true"
             />
@@ -98,7 +94,7 @@ export default function Menu() {
           >
             <span>{getCocktailNameByIndex(currentIndex + 1)}</span>
             <img
-              src="/images/left-arrow.png"
+              src="images/left-arrow.png"
               alt="left arrow"
               aria-hidden="true"
               className="ml-auto"
